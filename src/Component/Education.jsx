@@ -19,7 +19,7 @@ function Education() {
           <img
           src={bachelor}
           alt="Neha"
-          className="w-80 h-80 object-cover rounded-[60px] shadow-xl"
+          className="w-80 h-80 object-cover rounded-[60px] shadow-xl mb-20"
         />
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.Sunt, officia?</p>
       
