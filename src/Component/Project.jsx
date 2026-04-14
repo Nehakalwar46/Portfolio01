@@ -5,8 +5,8 @@ function Project() {
     <section id="project" className="min-h-screen  items-center bg-gray-700 text-white px-6">
 
       <p className="text-4xl mb-10">Project</p>
+      
       <div>
-
 
         <div className=" md:flex gap-10">
 
