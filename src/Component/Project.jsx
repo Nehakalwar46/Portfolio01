@@ -4,8 +4,8 @@ function Project() {
   return (
     <section id="project" className="min-h-screen  items-center bg-gray-700 text-white px-6">
 
-      <p className="text-4xl mb-10">Project</p>
-      
+      <p className="text-4xl mb-10 ">Project</p>
+
       <div>
 
         <div className=" md:flex gap-10">
@@ -13,8 +13,7 @@ function Project() {
           <img
             src={pic4}
             alt="Neha"
-            className="w-130 h-60 "
-          />
+            className="w-130 h-60 " />
           <p className="mb-20">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, dolores.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, laudantium?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, possimus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, placeat.</p>
 
         </div>

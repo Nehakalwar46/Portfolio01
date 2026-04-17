@@ -14,9 +14,10 @@ function Navbar() {
         <ul className="hidden md:flex gap-10 text-lg font-semibold">
           <li><a href="#home" className="hover:text-yellow-400">Home</a></li>
           <li><a href="#education" className="hover:text-yellow-400">Education</a></li>
-          <li><a href="#service" className="hover:text-yellow-400">Service</a></li>
+          <li><a href="#exper" className="hover:text-yellow-400">Experience</a></li>
           <li><a href="#skill" className="hover:text-yellow-400">Skill</a></li>
           <li><a href="#contact" className="hover:text-yellow-400">Contact</a></li>
+           <li><a href="#Certi" className="hover:text-yellow-400">Certificate</a></li>
         </ul>
 
       
@@ -33,9 +34,10 @@ function Navbar() {
         <ul className="md:hidden flex flex-col items-center gap-6 pb-4 bg-black  text-amber-50 text-lg">
           <li><a href="#home">Home</a></li>
           <li><a href="#education">Education</a></li>
-          <li><a href="#service">Service</a></li>
+          <li><a href="#exper">Experience</a></li>
           <li><a href="#skill">Skill</a></li>
           <li><a href="#contact">Contact</a></li>
+           <li><a href="#Certi">Certificate</a></li>
         </ul>
       )}
 

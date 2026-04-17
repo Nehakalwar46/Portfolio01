@@ -87,11 +87,11 @@ function Skill() {
             <span className="flex items-center gap-2">
               <SiMongodb className="text-blue-500" /> MongoDB
             </span>
-            <span>80%</span>
+            <span>65%</span>
           </div>
 
           <div className="w-full bg-gray-700 h-2 rounded">
-            <div className="bg-blue-500 h-2 rounded" style={{ width: "80%" }}></div>
+            <div className="bg-blue-500 h-2 rounded" style={{ width: "65%" }}></div>
           </div>
         </div>
       </div>
@@ -133,17 +133,17 @@ function Skill() {
             </div>
 
             <div className="w-32 h-32 mb-8 bg-amber-50 rounded-2xl">
-              <CircularProgressbarWithChildren value={90}>
+              <CircularProgressbarWithChildren value={65}>
                 <SiMongodb className="text-orange-500 text-7xl" />
               </CircularProgressbarWithChildren>
-              <p className="text-center mb-8">80%</p>
+              <p className="text-center mb-8">65%</p>
             </div>
 
             <div className="w-32 h-32 mb-8 bg-amber-50 rounded-2xl">
-              <CircularProgressbarWithChildren value={90}>
+              <CircularProgressbarWithChildren value={60}>
                 <SiMysql className="text-orange-500 text-7xl" />
               </CircularProgressbarWithChildren>
-              <p className="text-center mb-8">70%</p>
+              <p className="text-center mb-8">60%</p>
             </div>
           </div>
         </div>

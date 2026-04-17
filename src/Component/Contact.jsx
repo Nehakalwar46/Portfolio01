@@ -23,13 +23,13 @@ function Contact() {
           <FaHome />Gahawa-08 (Birgunj), Nepal
         </p>
       </div>
-<form className=" bg-gray-800  rounded-2xl text-center md:text-center ">
+<form className=" bg-gray-800  rounded-2xl text-center md:text-center mt-4 ">
 <h1 className=" flex justify-center text-xl text-blue-300 font-bold ">Contact me</h1>
         <input type="text" placeholder="Name" className="  w-90 border-2 my-3"></input><br></br>
  <input type="email" placeholder="E-mail"className=" w-90 border-2 my-3" ></input><br></br>
 <input type="number" placeholder="Mobile No." className=" w-90 border-2 my-3"></input><br></br>
 <input type="message" placeholder="Message"className=" w-90 h-30 border-2 my-3" ></input><br></br>
-<button className=" mx-35 w-30 h-10 border-2 mt-2 rounded-2xl bg-blue-300 ">Submit</button>
+<button className=" mx-35  mb-2 w-30 h-10 border-2 mt-2 rounded-2xl bg-blue-300 ">Submit</button>
 
       </form>
 
