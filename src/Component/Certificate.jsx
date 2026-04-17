@@ -8,7 +8,7 @@ function Certi() {
   const [open, setOpen] = useState(null);
 
   return (
-    <section className="bg-gray-700 text-white p-6 space-y-6">
+    <section id="Certi" className="bg-gray-700 text-white p-6 space-y-6">
 <h1 className="flex justify-center text-3xl md:text-4xl">Certificates</h1>
 <div className="flex flex-wrap mx-40 gap-4">
       {/* Quiz */}
