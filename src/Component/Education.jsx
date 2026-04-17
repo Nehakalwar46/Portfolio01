@@ -2,7 +2,7 @@ import plus2 from "./image/plus2.jpg";
 import bachelor from "./image/bachelor.jpg";
 function Education() {
   return (
-<section id="education" className="min-h-screen mx-auto  bg-gray-700 text-white px-6">
+<section id="education" className="min-h-screen mx-auto  bg-fuchsia-500 text-white px-6">
     
       <p className="flex justify-center mb-10 font-bold text-2xl md:text-4xl flex justify-center">MY ACADEMIC JOURNEY</p>
 
