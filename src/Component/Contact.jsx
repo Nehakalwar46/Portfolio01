@@ -16,13 +16,13 @@ function Contact() {
     const message = e.target[3].value;
 
     if (!name || !email || !phone || !message) {
-      setError("⚠️ Please fill all fields!");
+      setError(" Please fill all fields!");
       setMsg("");
       return;
     }
 
     setError("");
-    setMsg("✅ Message Sent Successfully!");
+    setMsg(" Message Sent Successfully!");
 
     setTimeout(() => {
       setMsg("");
@@ -33,7 +33,7 @@ function Contact() {
     <section id="contact"
     className="min-h-screen bg-gray-800 text-white px-6 py-10">
 
-      {/* 🔷 HEADING */}
+
       <p className="text-center text-blue-300 text-2xl md:text-4xl animate-fade-in">
         GET IN TOUCH
       </p>
@@ -42,7 +42,7 @@ function Contact() {
         Any Question? Feel free to Contact
       </p>
 
-      {/* 🔷 CONTACT INFO */}
+
       <div className="max-w-xl mx-auto animate-fade-in">
         <p className="flex items-center gap-3 my-4 text-lg">
           <FaMapMarkerAlt /> Chandigarh, India
@@ -61,7 +61,6 @@ function Contact() {
         </p>
       </div>
 
-      {/* 🔷 FORM */}
       <form 
         onSubmit={handleSubmit}
         className="bg-gray-900 rounded-lg p-6 max-w-xl mx-auto mt-6 animate-fade-in shadow-lg"
@@ -97,14 +96,14 @@ function Contact() {
           Submit
         </button>
 
-        {/* ❌ Error */}
+     
         {error && (
           <p className="text-center mt-4 text-red-400">
             {error}
           </p>
         )}
 
-        {/* ✅ Success */}
+      
         {msg && (
           <p className="text-center mt-4 text-green-400">
             {msg}
