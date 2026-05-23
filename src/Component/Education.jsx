@@ -44,7 +44,7 @@ function Education() {
      Birgunj Institute Of Management(Graduate college)
     
       <p className=" text-[15px] md:text-xl text-blue-300 text-left  ">
-     Murlichauk,Birgunj-10
+     Murlichowk,Birgunj-10
       </p>
         </h4>
         <p className="text-center md:text-left">
