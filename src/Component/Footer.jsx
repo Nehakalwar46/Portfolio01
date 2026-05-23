@@ -34,7 +34,7 @@ function Footer() {
       </div>
 
       <p className="mt-4 text-sm text-gray-400">
-        © 2026 Neha kalwar.
+        © 2026 Neha kalwar | Web Developer
       </p>
     </footer>
   );
