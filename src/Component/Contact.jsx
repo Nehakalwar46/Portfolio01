@@ -30,7 +30,8 @@ function Contact() {
   };
 
   return (
-    <section className="min-h-screen bg-gray-800 text-white px-6 py-10">
+    <section id="contact"
+    className="min-h-screen bg-gray-800 text-white px-6 py-10">
 
       {/* 🔷 HEADING */}
       <p className="text-center text-blue-300 text-2xl md:text-4xl animate-fade-in">
