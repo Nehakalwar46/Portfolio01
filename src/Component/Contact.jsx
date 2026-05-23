@@ -1,42 +1,69 @@
+import { useState } from "react";
 import { FaMapMarkerAlt, FaPhoneAlt, FaHome } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+
 function Contact() {
+
+  const [msg, setMsg] = useState("");
+  const [error, setError] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const name = e.target[0].value;
+    const email = e.target[1].value;
+    const phone = e.target[2].value;
+    const message = e.target[3].value;
+
+    if (!name || !email || !phone || !message) {
+      setError("Please fill all fields!");
+      setMsg("");
+      return;
+    }
+
+    setError("");
+    setMsg("✅ Message Sent Successfully!");
+
+    setTimeout(() => {
+      setMsg("");
+    }, 2000);
+  };
+
   return (
-    <section id="contact" className="min-h-screen items-center bg-gray-700 text-white px-6">
+    <section className="min-h-screen bg-gray-800 text-white px-6 py-10">
 
-      <p className="flex justify-center text-blue-300 text-2xl md:text-4xl">GET IN TOUCH</p>
-      <p className="flex justify-center mb-10  text-3xl md:text-5xl">Any Question?Feel free to Contact</p>
-      <div className=" mx-30 md:mx-90">
-        <p className="flex items-center gap-3 my-5 text-2xl">
-          <FaMapMarkerAlt /> Chandigarh,India
-        </p>
+      <form 
+        onSubmit={handleSubmit}
+        className="bg-gray-800 rounded-lg p-6 max-w-xl mx-auto mt-6"
+      >
+        <h1 className="text-center text-xl text-blue-300 font-bold mb-4">
+          Contact Me
+        </h1>
 
-        <p className="flex items-center gap-3  my-5 text-2xl">
-          <FaPhoneAlt /> +977-9824282474
-        </p>
+        <input type="text" placeholder="Name" className="w-full p-2 border mb-3 text-black" />
+        <input type="email" placeholder="E-mail" className="w-full p-2 border mb-3 text-black" />
+        <input type="number" placeholder="Mobile No." className="w-full p-2 border mb-3 text-black" />
+        <textarea placeholder="Message" className="w-full p-2 border mb-3 text-black h-24"></textarea>
 
-        <p className="flex items-center gap-3  my-5 text-2xl">
-          <MdEmail /> nehakalwar192@gmail.com
-        </p>
+        <button className="w-full py-2 bg-blue-300 text-black rounded">
+          Submit
+        </button>
 
-        <p className="flex items-center gap-3  my-5 text-2xl">
-          <FaHome />Gahawa-08 (Birgunj), Nepal
-        </p>
-      </div>
-<form className=" bg-gray-800  rounded-2xl text-center md:text-center mt-4 ">
-<h1 className=" flex justify-center text-xl text-blue-300 font-bold ">Contact me</h1>
-        <input type="text" placeholder="Name" className="  w-90 border-2 my-3"></input><br></br>
- <input type="email" placeholder="E-mail"className=" w-90 border-2 my-3" ></input><br></br>
-<input type="number" placeholder="Mobile No." className=" w-90 border-2 my-3"></input><br></br>
-<input type="message" placeholder="Message"className=" w-90 h-30 border-2 my-3" ></input><br></br>
-<button className=" mx-35  mb-2 w-30 h-10 border-2 mt-2 rounded-2xl bg-blue-300 ">Submit</button>
+        {error && (
+          <p className="text-center mt-4 text-red-400">
+            {error}
+          </p>
+        )}
+
+        
+        {msg && (
+          <p className="text-center mt-4 text-green-400">
+            {msg}
+          </p>
+        )}
 
       </form>
-
-    
     </section>
-    
-
   );
 }
 

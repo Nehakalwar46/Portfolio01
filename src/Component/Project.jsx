@@ -1,41 +1,94 @@
-import pic4 from "./image/pic4.png";
+import port from "./image/port.png";
 import pic3 from "./image/pic3.png";
+
 function Project() {
   return (
-    <section id="project" className="min-h-screen  items-center bg-gray-700 text-white px-6">
+    <section
+      id="project"
+      className="bg-gray-900 text-white px-6 py-16"
+    >
+     
+      <h1 className="text-4xl text-blue-400 text-center mb-12 font-bold">
+        My Projects
+      </h1>
 
-      <p className="text-4xl mb-10 ">Project</p>
+      <div className="space-y-16">
 
-      <div>
+        
+        <div className="md:flex items-center gap-10">
 
-        <div className=" md:flex gap-10">
-
+        
           <img
-            src={pic4}
-            alt="Neha"
-            className="w-130 h-60 " />
-          <p className="mb-20">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, dolores.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, laudantium?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, possimus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, placeat.</p>
+            src={port}
+            alt="Portfolio Project"
+            className="w-full md:w-1/2 h-64 object-cover rounded-xl shadow-lg"
+          />
 
+          <div className="mt-6 md:mt-0">
+            <h2 className="text-2xl text-blue-300 font-semibold mb-3">
+              Personal Portfolio Website
+            </h2>
+
+            <p className="text-gray-300 leading-relaxed mb-4">
+              This is my personal portfolio website where I showcase my
+              skills, projects, and achievements. It is designed using
+              React and Tailwind CSS with a clean and modern UI. The
+              website is fully responsive and provides a smooth user
+              experience across different devices.
+            </p>
+
+          
+            <div className="flex gap-4">
+              <button className="bg-blue-400 text-black px-4 py-2 rounded-lg hover:bg-blue-500 transition">
+                Live Demo
+              </button>
+
+              <button className="border border-blue-400 px-4 py-2 rounded-lg hover:bg-blue-400 hover:text-black transition">
+                Source Code
+              </button>
+            </div>
+          </div>
         </div>
-        <button className=" rounded-2xl text-yellow-300 text-2xl mb-10 ">See More</button>
 
-        <div className=" md:flex gap-10">
-          <p className="hidden md:block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, itaque!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, placeat Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, ad.</p>
+       
+        <div className="md:flex items-center gap-10 flex-row-reverse">
+
+       
           <img
             src={pic3}
-            alt="Neha"
-            className="w-130 h-60 mb-5"
+            alt="Weather App"
+            className="w-full md:w-1/2 h-64 object-cover rounded-xl shadow-lg"
           />
-          <p className="md:hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, itaque!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, placeat Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, ad.</p>
 
+     
+          <div className="mt-6 md:mt-0">
+            <h2 className="text-2xl text-blue-300 font-semibold mb-3">
+              Weather App (API Based)
+            </h2>
+
+            <p className="text-gray-300 leading-relaxed mb-4">
+              This project is a weather application that fetches real-time
+              weather data using an API. Users can search for any city and
+              get current temperature, weather conditions, and other
+              details. It is built using JavaScript and API integration,
+              focusing on functionality and user interaction.
+            </p>
+
+         
+            <div className="flex gap-4">
+              <button className="bg-blue-400 text-black px-4 py-2 rounded-lg hover:bg-blue-500 transition">
+                Live Demo
+              </button>
+
+              <button className="border border-blue-400 px-4 py-2 rounded-lg hover:bg-blue-400 hover:text-black transition">
+                Source Code
+              </button>
+            </div>
+          </div>
         </div>
-        <button className=" rounded-2xl text-yellow-300 text-2xl mb-20 mt-5">See More</button>
-
-
 
       </div>
     </section>
-
   );
 }
 
