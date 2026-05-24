@@ -9,7 +9,7 @@ function Skill() {
 
       {/* DESKTOP */}
       <div className="hidden md:block max-w-2xl mx-auto">
-   <h1 className="text-4xl text-blue-400 text-center mb-12  mt-5 font-bold">
+   <h1 className="text-4xl text-blue-400 text-center mb-12  mt-8 font-bold">
         My Skills
       </h1>
 
