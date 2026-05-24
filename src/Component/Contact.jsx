@@ -50,11 +50,11 @@ function Contact() {
       className="min-h-screen bg-gray-800 text-white px-6 py-10"
     >
 
-      <p className="text-center text-blue-300 text-2xl md:text-4xl">
+      <p className="text-center text-blue-300 mt-6 text-2xl md:text-4xl">
         GET IN TOUCH
       </p>
 
-      <p className="text-center mb-10 text-3xl md:text-5xl">
+      <p className="text-center mb-10 text-3xl mt-5 md:text-5xl">
         Any Question? Feel free to Contact
       </p>
 

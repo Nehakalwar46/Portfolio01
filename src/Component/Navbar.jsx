@@ -17,6 +17,7 @@ function Navbar() {
           <li><a href="#home" className="hover:text-yellow-400">Home</a></li>
           <li><a href="#education" className="hover:text-yellow-400">Education</a></li>
           <li><a href="#exper" className="hover:text-yellow-400">Experience</a></li>
+          <li><a href="#project" className="hover:text-yellow-400">Project</a></li>
           <li><a href="#skill" className="hover:text-yellow-400">Skill</a></li>
           <li><a href="#contact" className="hover:text-yellow-400">Contact</a></li>
           

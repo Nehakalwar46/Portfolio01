@@ -7,8 +7,8 @@ function Education() {
       id="education"
       className="min-h-screen bg-gray-800 text-white px-6 py-10"
     >
-      <h1 className="text-4xl text-blue-400 text-center mb-12 font-bold">
-        My Academy Journey
+      <h1 className="text-4xl text-blue-400 text-center mb-12 mt-5 font-bold">
+        Educational Background
       </h1>
 
       {/* Plus 2 */}
