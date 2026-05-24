@@ -89,7 +89,7 @@ function Skill() {
 
       {/* MOBILE */}
       <div className="md:hidden">
-        <h1 className="text-4xl text-blue-400 text-center mb-12 font-bold">
+        <h1 className="text-4xl text-blue-400 text-center mb-12 mt-7 font-bold">
         My Skills
       </h1>
         
