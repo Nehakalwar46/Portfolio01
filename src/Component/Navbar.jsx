@@ -8,7 +8,9 @@ function Navbar() {
       
       <div className="flex justify-between items-center p-4">
       
-        <h1 className="text-xl font-bold">Neha</h1>
+        <h1 className="text-xl font-bold">
+          <a href="#home" className="hover:text-yellow-400">Neha</a>
+        </h1>
 
      
         <ul className="hidden md:flex gap-10 text-lg font-semibold">
@@ -17,7 +19,7 @@ function Navbar() {
           <li><a href="#exper" className="hover:text-yellow-400">Experience</a></li>
           <li><a href="#skill" className="hover:text-yellow-400">Skill</a></li>
           <li><a href="#contact" className="hover:text-yellow-400">Contact</a></li>
-           <li><a href="#Certi" className="hover:text-yellow-400">Certificate</a></li>
+          
         </ul>
 
       

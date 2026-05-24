@@ -1,8 +1,8 @@
-import exper from "./image/exper.pdf";
+import exper from "./image/exper.png";
 
 function Experience() {
   return (
-    <section className="bg-gray-900 text-white px-6 py-16">
+    <section  id="exper" className="bg-gray-900 text-white px-6 py-16">
 
     
       <h1 className="text-4xl text-blue-400 text-center mb-12 font-bold">
@@ -11,12 +11,6 @@ function Experience() {
 
       <div className="md:flex items-center gap-10">
 
-       {/*pdf*/}
-        <iframe
-          src={exper}
-          title="Experience"
-          className="w-full md:w-1/2 h-80 border rounded-lg shadow-lg"
-        ></iframe>
 
    
         <div className="mt-6 md:mt-0">
@@ -38,11 +32,11 @@ function Experience() {
             maintaining financial discipline in professional environments.
           </p>
 
-       
-          <button className="bg-blue-400 text-black px-4 py-2 rounded-lg hover:bg-blue-500 transition">
-            View Certificate
-          </button>
-
+       <a href={exper} target="_blank" rel="noopener noreferrer">
+  <button className="bg-blue-400 text-black px-4 py-2 rounded-lg hover:bg-blue-500 transition">
+    View Certificate
+  </button>
+</a>
         </div>
 
       </div>

@@ -1,6 +1,3 @@
-import port from "./image/port.png";
-import pic3 from "./image/pic3.png";
-
 function Project() {
   return (
     <section
@@ -18,11 +15,7 @@ function Project() {
         <div className="md:flex items-center gap-10">
 
         
-          <img
-            src={port}
-            alt="Portfolio Project"
-            className="w-full md:w-1/2 h-64 object-cover rounded-xl shadow-lg"
-          />
+         
 
           <div className="mt-6 md:mt-0">
             <h2 className="text-2xl text-blue-300 font-semibold mb-3">
@@ -39,11 +32,7 @@ function Project() {
 
           
             <div className="flex gap-4">
-              <button className="bg-blue-400 text-black px-4 py-2 rounded-lg hover:bg-blue-500 transition">
-                Live Demo
-              </button>
-
-              <button className="border border-blue-400 px-4 py-2 rounded-lg hover:bg-blue-400 hover:text-black transition">
+            <button className="border border-blue-400 px-4 py-2 rounded-lg hover:bg-blue-400 hover:text-black transition">
                 Source Code
               </button>
             </div>
@@ -54,12 +43,7 @@ function Project() {
         <div className="md:flex items-center gap-10 flex-row-reverse">
 
        
-          <img
-            src={pic3}
-            alt="Weather App"
-            className="w-full md:w-1/2 h-64 object-cover rounded-xl shadow-lg"
-          />
-
+          
      
           <div className="mt-6 md:mt-0">
             <h2 className="text-2xl text-blue-300 font-semibold mb-3">
@@ -76,9 +60,7 @@ function Project() {
 
          
             <div className="flex gap-4">
-              <button className="bg-blue-400 text-black px-4 py-2 rounded-lg hover:bg-blue-500 transition">
-                Live Demo
-              </button>
+             
 
               <button className="border border-blue-400 px-4 py-2 rounded-lg hover:bg-blue-400 hover:text-black transition">
                 Source Code

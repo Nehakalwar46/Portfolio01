@@ -4,7 +4,6 @@ import Education from "./Component/Education.jsx";
 import Experience from "./Component/Experience.jsx";
 import Project from "./Component/Project.jsx";
 import Skill from "./Component/Skill.jsx";
-import Certificate from "./Component/Certificate.jsx";
 import Contact from "./Component/Contact.jsx";
 import Footer from "./Component/Footer.jsx";
 
@@ -17,8 +16,7 @@ function App() {
       <Education/>
        <Experience/>
        <Project/>
-      <Skill/>
-       <Certificate/>
+      <Skill/>  
       <Contact/>
       <Footer/>
     </>
