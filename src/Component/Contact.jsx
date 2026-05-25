@@ -23,25 +23,23 @@ function Contact() {
 
     setError("");
 
-    // ✅ WhatsApp message format
+
     const text = `Hello, my name is ${name}%0AEmail: ${email}%0APhone: ${phone}%0AMessage: ${message}`;
 
-    // ✅ Your WhatsApp number (no +, no space)
+  
     const whatsappNumber = "9779824282474";
 
     const url = `https://wa.me/${whatsappNumber}?text=${text}`;
 
-    // ✅ Open WhatsApp
     window.open(url, "_blank");
 
     setMsg(" Redirecting to WhatsApp...");
 
-    // ✅ Clear form
     e.target.reset();
 
-    setTimeout(() => {
-      setMsg("");
-    }, 2000);
+   setTimeout(()=>{
+    setMsg("")
+   },2000)
   };
 
   return (
@@ -111,14 +109,13 @@ function Contact() {
           Submit
         </button>
 
-        {/* ❌ Error */}
+        
         {error && (
           <p className="text-center mt-4 text-red-400">
             {error}
           </p>
         )}
 
-        {/* ✅ Success */}
         {msg && (
           <p className="text-center mt-4 text-green-400">
             {msg}
